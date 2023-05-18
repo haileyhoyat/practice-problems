@@ -21,8 +21,3 @@ def find_highest(list):
 if __name__ == '__main__':
     list = [5,10,100,90,5]
     print(find_highest(list))
-
-"""
-
-
-"""
