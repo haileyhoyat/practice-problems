@@ -18,19 +18,18 @@ if __name__ == '__main__':
     print(reverseInGroups(arr,K))
 
 """
-get the subarray to replace
 
+get subarray of size k and step backwards in the subarray
+a[i:i+k][::-1]
+-->    
+[4,3,2,1]
+[8,7,6,5]
+[11,10,9]
 
-a[i:i+k] -->
-[1,2,3]
-[4,5,6]
-[7,8,9]
-[10,11]
-
-a[i:i+k][::-1] -->     
-[3,2,1]
-[6,5,4]
-[9,8,7]
-[11,10]
-
+replace subarray with reverse subarray
+a[i:i+k]
+-->
+[1,2,3,4]
+[5,6,7,8]
+[9,10,11]
 """
